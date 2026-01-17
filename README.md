@@ -1,21 +1,21 @@
-# Customer-Churn-Analysis-
+# Customer-Churn-Analysis
 1. Objective 
 The goal of this project is to analyze customer churn patterns in a telecom company, identify the key drivers behind churn, and design data-driven retention strategies.
 By combining SQL queries, Python exploratory data analysis (EDA), and Power BI dashboards, this project demonstrates how analytics can reduce churn and improve customer satisfaction.
 
-2. 🛠️ Skills Showcased
+2.  Skills 
 - SQL: Customer segmentation, KPI queries, ranking churn drivers.
 - Python (pandas, matplotlib, seaborn): Data cleaning, correlation analysis, visualization.
 - Power BI: Interactive dashboards with churn KPIs, trend analysis, and retention recommendations.
 
-3. 📂 Dataset
+3. Dataset
 - Source: Telco Customer Churn Dataset (Kaggle) (kaggle.com in Bing)
 - Description: Contains customer demographics, account information, services subscribed, tenure, billing details, and churn flag.
 - Size: ~7,000 records, 21 features.
 
-4. 📑 Project Steps
+4. Project Steps
 Step 1: Data Collection & Preparation
-- Download dataset from Kaggle.
+- Downloaded dataset from Kaggle.
 - Load into SQL database and Python (pandas).
 - Handle missing values (e.g., TotalCharges column).
 - Encode categorical variables (e.g., gender, contract type).
