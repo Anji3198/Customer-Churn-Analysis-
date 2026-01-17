@@ -22,21 +22,23 @@ Step 1: Data Collection & Preparation
 
 Step 2: SQL Analysis
 - Written Queries to segment customers by:
+  
 - Contract type (month-to-month vs yearly).
-- <img width="273" height="97" alt="image" src="https://github.com/user-attachments/assets/699add71-5cec-4ea3-ab42-b25c46356574" />
+ <img width="273" height="97" alt="image" src="https://github.com/user-attachments/assets/699add71-5cec-4ea3-ab42-b25c46356574" />
 
 - Payment method (electronic check vs credit card).
-- <img width="327" height="117" alt="image" src="https://github.com/user-attachments/assets/8766abad-d710-4038-bd48-838d1a04cdfa" />
+ <img width="327" height="117" alt="image" src="https://github.com/user-attachments/assets/8766abad-d710-4038-bd48-838d1a04cdfa" />
 
 - Tenure groups (new vs loyal customers).
-- <img width="295" height="114" alt="image" src="https://github.com/user-attachments/assets/fc344090-a975-43cf-b331-8df3a5f0d79c" />
+ <img width="295" height="114" alt="image" src="https://github.com/user-attachments/assets/fc344090-a975-43cf-b331-8df3a5f0d79c" />
 
 - KPIs:
 - Churn rate by segment.
-- <img width="296" height="106" alt="image" src="https://github.com/user-attachments/assets/cee7907b-dbbd-4add-83f7-7c5db80e1247" />
+<img width="293" height="96" alt="image" src="https://github.com/user-attachments/assets/6f189598-3dc6-4bf8-ae5d-e6717753774e" />
+
 
 - Average monthly charges of churned vs retained customers.
-- <img width="251" height="81" alt="image" src="https://github.com/user-attachments/assets/9652ae75-db9e-451b-b098-9e122ec8f839" />
+ <img width="251" height="81" alt="image" src="https://github.com/user-attachments/assets/9652ae75-db9e-451b-b098-9e122ec8f839" />
 
 
 Step 3: Python EDA
