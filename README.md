@@ -11,7 +11,7 @@ By combining SQL queries, Python exploratory data analysis (EDA), and Power BI d
 3. Dataset
 - Source: Telco Customer Churn Dataset (Kaggle) (kaggle.com in Bing)
 - Description: Contains customer demographics, account information, services subscribed, tenure, billing details, and churn flag.
-- Size: ~7,000 records, 21 features.
+- Size: 7,000 records, 21 features.
 
 4. Project Steps
 Step 1: Data Collection & Preparation
@@ -21,13 +21,23 @@ Step 1: Data Collection & Preparation
 - Encode categorical variables (e.g., gender, contract type).
 
 Step 2: SQL Analysis
-- Write queries to segment customers by:
+- Written Queries to segment customers by:
 - Contract type (month-to-month vs yearly).
+- <img width="273" height="97" alt="image" src="https://github.com/user-attachments/assets/699add71-5cec-4ea3-ab42-b25c46356574" />
+
 - Payment method (electronic check vs credit card).
+- <img width="327" height="117" alt="image" src="https://github.com/user-attachments/assets/8766abad-d710-4038-bd48-838d1a04cdfa" />
+
 - Tenure groups (new vs loyal customers).
+- <img width="295" height="114" alt="image" src="https://github.com/user-attachments/assets/fc344090-a975-43cf-b331-8df3a5f0d79c" />
+
 - KPIs:
 - Churn rate by segment.
+- <img width="296" height="106" alt="image" src="https://github.com/user-attachments/assets/cee7907b-dbbd-4add-83f7-7c5db80e1247" />
+
 - Average monthly charges of churned vs retained customers.
+- <img width="251" height="81" alt="image" src="https://github.com/user-attachments/assets/9652ae75-db9e-451b-b098-9e122ec8f839" />
+
 
 Step 3: Python EDA
 - Perform correlation analysis between features and churn.
