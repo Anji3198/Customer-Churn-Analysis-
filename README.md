@@ -43,11 +43,32 @@ Step 2: SQL Analysis
 
 Step 3: Python EDA
 - Perform correlation analysis between features and churn.
+<img width="733" height="452" alt="image" src="https://github.com/user-attachments/assets/25808063-2caf-49a6-9ec3-0c1b49250aa6" />
+
+- Tenure is the strongest churn predictor: Customers who’ve been around longer are significantly less likely to churn.
+- MonthlyCharges has a mild churn link: Higher bills may push some customers away, but it’s not a dominant factor.
+- TotalCharges reflects loyalty: Those who’ve paid more over time tend to stay, reinforcing the tenure effect
+
+
 - Visualize churn distribution by:
-- Contract type
-- Internet service
-- Payment method
-- Identify top churn drivers (e.g., month-to-month contracts, high charges, electronic check payments).
+- Contract type - Customers with month-to-month contracts churn more often.
+  <img width="707" height="473" alt="image" src="https://github.com/user-attachments/assets/0b162d73-6b52-41d4-b418-994459376497" />
+
+- Internet service - Customers with fiber optic internet are more likely to churn.
+  <img width="707" height="473" alt="image" src="https://github.com/user-attachments/assets/d679a794-9c69-4a0d-bbcd-ee762faab450" />
+
+- Payment method - Payment method (electronic check) shows higher churn tendency.
+  <img width="707" height="590" alt="image" src="https://github.com/user-attachments/assets/95393f82-8874-4914-9235-185cedbdaf75" />
+
+- Identified top churn drivers (e.g., month-to-month contracts, high charges, electronic check payments).
+ --- Key Insights ---
+1. Overall churn rate is around 26.54%
+   Retention rate is around 73.46%
+2. Customers with month-to-month contracts churn more often.
+3. Higher monthly charges are associated with higher churn.
+4. Longer tenure customers are less likely to churn.
+5. Payment method (electronic check) shows higher churn tendency.
+6. Customers with fiber optic internet are more likely to churn.
 
 Step 4: Power BI Dashboard
 - Import cleaned dataset into Power BI.
