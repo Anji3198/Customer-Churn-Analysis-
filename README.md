@@ -72,14 +72,15 @@ Step 3: Python EDA
 
 Step 4: Power BI Dashboard
 - Import cleaned dataset into Power BI.
-- Create visuals:
+- Created visuals:
 - 📊 Churn by Contract Type
 - 📈 Monthly Charges vs Churn
 - 🧮 Retention KPIs (Churn %, Avg Tenure, Revenue Impact)
-- Add slicers for interactive filtering (gender, senior citizen, internet service).
-- Provide actionable insights:
+- Added slicers for interactive filtering (gender, senior citizen, internet service).
+
+
+<img width="1373" height="776" alt="image" src="https://github.com/user-attachments/assets/5d140cfd-598c-4696-98d3-85a9dccb70c7" />
+
 - Customers with month-to-month contracts churn at 3x higher rate.
 - Electronic check users have highest churn.
 - Retention offers for high-value customers could reduce churn by 15%.
-
-
