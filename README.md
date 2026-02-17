@@ -14,6 +14,7 @@ By combining SQL queries, Python exploratory data analysis (EDA), and Power BI d
 - Size: 7,000 records, 21 features.
 
 4. Project Steps
+   
 Step 1: Data Collection & Preparation
 - Downloaded dataset from Kaggle.
 - Load into SQL database and Python (pandas).
